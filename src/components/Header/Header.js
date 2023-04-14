@@ -5,7 +5,7 @@ import { DiCssdeck } from 'react-icons/di';
 import { useState, useEffect } from 'react';
 
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, } from './HeaderStyles';
 
 const Header = () =>  {
   const [isMounted, setIsMounted] = useState(false);
@@ -17,8 +17,8 @@ const Header = () =>  {
   return (
     <Container>
       <Div1>
-        <a href='/' style={{display: "flex", alignItems: "center", color: 'white'}}>
-          <DiCssdeck size= "3rem"/><span>Portfolio</span>
+        <a href='/' style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
+          <DiCssdeck size= "3rem"/><Span>Portfolio</Span>
         </a>
       </Div1>
       <Div2>
@@ -44,6 +44,17 @@ const Header = () =>  {
           )}
         </li>
       </Div2>
+      <Div3>
+        <SocialIcons href='https://github.com/ianinho'>
+          <AiFillGithub size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href='https://www.linkedin.com/in/ian-simmons-193815241/'>
+          <AiFillLinkedin size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href='https://instagram'>
+          <AiFillInstagram size="3rem"/>
+        </SocialIcons>
+      </Div3>
     </Container>
   );
 }
