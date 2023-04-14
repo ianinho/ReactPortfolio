@@ -24,14 +24,14 @@ const Header = () =>  {
       <Div2>
         <li>
           {isMounted && (
-            <a href='#Projects'>
+            <a href='#projects'>
               <NavLink>Projects</NavLink>
             </a>
           )}
         </li>
         <li>
           {isMounted && (
-            <a href='#Technologies'>
+            <a href='#tech'>
               <NavLink>Technologies</NavLink>
             </a>
           )}
