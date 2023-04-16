@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 import { useRef } from 'react';
+import { HiCloudDownload } from 'react-icons/hi';
 
 const Hero = (props) => {
   const resumeLinkRef = useRef();
@@ -20,12 +21,13 @@ const Hero = (props) => {
       <LeftSection>
           <SectionTitle main center>
               Welcome to<br/>
-              My Personal Portfolio
+              My Personal Portfolio!
           </SectionTitle>
           <SectionText>
-            Freelance React/Shopify Developer
+            My name is Ian Simmons and I am a Full-Time and Freelance React/Shopify Developer.
+            Please see more about me and some of my work below.
           </SectionText>
-          <Button onClick={downloadResume}>CV/Resume</Button>
+          <Button onClick={downloadResume}>CV/Resume<HiCloudDownload size= "4rem"/></Button>
           <a
             ref={resumeLinkRef}
             href={resumeFilePath}
