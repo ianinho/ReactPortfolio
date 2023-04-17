@@ -24,10 +24,10 @@ const Hero = (props) => {
               My Personal Portfolio!
           </SectionTitle>
           <SectionText>
-            My name is Ian Simmons and I am a Full-Time and Freelance React/Shopify Developer.
+            My name is Ian Simmons and I am a Full-Time and Freelance IT Professional and React/Shopify Developer.
             Please see more about me and some of my work below.
           </SectionText>
-          <Button onClick={downloadResume}>CV/Resume<HiCloudDownload size= "4rem"/></Button>
+          <Button onClick={downloadResume}>CV/Résumé<HiCloudDownload size= "4rem"/></Button>
           <a
             ref={resumeLinkRef}
             href={resumeFilePath}

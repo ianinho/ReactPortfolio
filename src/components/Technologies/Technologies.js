@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development and IT world. From Fron-end to Back-End 
+      I've worked with a range of technologies in the web development and IT world. From Front-end to Back-End 
     </SectionText>
     <List>
       <ListItem>
@@ -45,7 +45,8 @@ const Technologies = () =>  (
             Experience with <br />
             Active Directory <br />
             Single-Sign-On(SSO) <br /> 
-            VPN Support
+            VPN Support <br />
+            Office 365 Support
           </ListParagraph>
         </ListContainer>
       </ListItem>

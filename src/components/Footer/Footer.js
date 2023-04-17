@@ -19,16 +19,16 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one Project at a time</Slogan>
+          <Slogan>Innovating one Project at a time.</Slogan>
         </CompanyContainer>
-        <SocialIcons href='https://github.com/ianinho'>
-        <AiFillGithub size="3rem"/>
+        <SocialIcons href="https://github.com/ianinho" target="_blank" rel="noopener noreferrer">
+          <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href='https://www.linkedin.com/in/ian-simmons-193815241/'>
-          <AiFillLinkedin size="3rem"/>
+        <SocialIcons href="https://www.linkedin.com/in/ian-simmons-193815241/" target="_blank" rel="noopener noreferrer">
+          <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href='https://www.instagram.com/ianinh0/'>
-          <AiFillInstagram size="3rem"/>
+        <SocialIcons href="https://www.instagram.com/ianinh0/" target="_blank" rel="noopener noreferrer">
+          <AiFillInstagram size="3rem" />
         </SocialIcons>
       </SocialIconsContainer>
     </FooterWrapper>
