@@ -13,7 +13,7 @@ export const projects = [
   {
     title: 'Portfolio',
     description: "This is a website used as my personal Portfolio created using React.",
-      image: '/images/Webss2.png',
+      image: '/images/Webss2.PNG',
       tags: ['React.js', 'Next.js', 'Node.js', 'Responsive design'], 
     source: 'https://github.com/ianinho/ReactPortfolio',
     showSource: true,
