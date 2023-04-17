@@ -13,7 +13,7 @@ export const projects = [
   {
     title: 'Portfolio',
     description: "This is a website used as my personal Portfolio created using React.",
-      image: '/images/noCombo.PNG',
+      image: '/images/Webss2.png',
       tags: ['React.js', 'Next.js', 'Node.js', 'Responsive design'], 
     source: 'https://github.com/ianinho/ReactPortfolio',
     showSource: true,
@@ -24,9 +24,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey', },
+  { year: 2020, text: 'Worked as a freelance developer', },
+  { year: 2021, text: 'Founded JavaScript Mastery', },
+  { year: 2022, text: 'Shared my projects with the world', },
+  { year: 2023, text: 'Started my own platform', },
 ];
