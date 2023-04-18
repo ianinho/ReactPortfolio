@@ -18,9 +18,9 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             HTML <br />
-            CSS <br />
-            Shopify Website Creation <br />
-            React.js 
+            CSS <br /> 
+            React.js <br />
+            Shopify Website Creation
             
 
           </ListParagraph>
@@ -32,8 +32,8 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Shopify Back-End Applications <br />
-            Node and Databases
+            Node and Databases <br />
+            Shopify Back-End Applications 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,9 +44,9 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             Active Directory <br />
-            Single-Sign-On(SSO) <br /> 
             VPN Support <br />
-            Office 365 Support
+            Office 365 Support <br />
+            Single-Sign-On(SSO) 
           </ListParagraph>
         </ListContainer>
       </ListItem>
